@@ -1,5 +1,5 @@
 pipelines:
-  release:
+  pullRequest:
     setup:
       steps:
       - groovy: git 'https://github.com/gilShin/cars-rest-api.git'
