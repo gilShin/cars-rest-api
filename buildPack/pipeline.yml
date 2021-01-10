@@ -1,7 +1,0 @@
-stages:
-  - name: release
-    steps:
-      - name: build-docker
-        dir: /workspace
-        command: docker
-        args: ['build','.']
