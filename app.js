@@ -58,4 +58,5 @@ try {
 
 
 // Start server
+console.info('Gil is here');
 sails.lift(rc('sails'));
